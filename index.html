@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="username">Username </label>
+        <input type="text" placeholder="Enter Username" required />
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter Email" required />
+        <label for="number">Number</label>
+        <input type="number" placeholder="Enter number" required />
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter the password" required />
+        <input type="file" accept="image/*,application/pdf">
+        <input type="radio">
+        <input type="checkbox">
+        <input type="date" min="2020-09-06" max="2029-09-06">
+        <input type="time">
+        <button>Submit</button>
+    </form>
+    <!--audio syntax
+    <audio controls>
+        <source src=""  type="audio/format"></source>
+    </audio>   -->
+
+    <audio controls>
+        <source src="./Fire Storm.mp3" type="audio/mp3">
+    </audio>
+
+    <!--video syntax
+    <video controls>
+        <source src=""  type="video/format"></source>
+    </video>   -->
+
+    <video controls width="50%">
+        <source src="./videoplayback.mp4" type="video/mp4">
+    </video>
+    <!--if we want to give the video which is in the pc but not in the required folder we use ././ to go back ()-->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AeuIA-IzQrs?si=FOusMtkyPF58GO2W"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <!--if we want to dirctly see tye video we will go to youtube and click on a video and click on share and click on embed copy the code and paste it in here we will adjust the height and width -->
+
+</body>
+
+</html>
